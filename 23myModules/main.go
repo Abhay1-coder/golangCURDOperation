@@ -31,3 +31,4 @@ func serveHome(w http.ResponseWriter, r *http.Request) { // this is the mothod t
 //go build . // this is use to make exe file
 //go mod verify //this is use to verify all the modubles and version
 //go mod vendor // it is use to make ready your project to sent in production
+// go get go.mongodb.org/mongo-driver/mongo // to add mongodb in ur project
